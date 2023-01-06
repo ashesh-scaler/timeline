@@ -21,7 +21,7 @@
     position: absolute;
     width: 37px;
     height: 37px;
-    right: -25px;
+    right: 0;
     background-color: green;
     top: 30px;
     border-radius: 50%;
@@ -29,7 +29,7 @@
   }
 
   .column__content-right {
-    padding: 15px 74px;
+    padding: 15px 53px;
     font-size: large;
     position: relative;
     border-radius: 6px;
@@ -43,6 +43,6 @@
     width: 4px;
     background-color: red;
     top: 0;
-    left: 48.3%;
+    left: 47%;
     z-index: 1;
   }
