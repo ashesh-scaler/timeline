@@ -1,0 +1,48 @@
+  .timeline {
+    font-family: Helvetica, sans-serif;
+  }
+
+  .column {
+    float: left;
+    padding: 0px;
+    position: relative;
+    width: 48%;
+  }
+
+  .column__content-left {
+    padding: 15px 8px;
+    font-size: large;
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .column__content-left::after {
+    content: '';
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    right: -25px;
+    background-color: green;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+
+  .column__content-right {
+    padding: 15px 74px;
+    font-size: large;
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .column_mid {
+    margin-top: 10px;
+    content: '';
+    position: absolute;
+    height: 750px;
+    width: 4px;
+    background-color: red;
+    top: 0;
+    left: 48.3%;
+    z-index: 1;
+  }
